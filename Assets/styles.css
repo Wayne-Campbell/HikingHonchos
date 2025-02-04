@@ -10,14 +10,32 @@ Secondaty color is #00f4f4: tealish
 
 .menu-container {
   color: #fff;
-  background-color: #203850;  /* Blue */
-  padding: 20px 0;
+  background-color: #203850;  /* Greyish */
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container {
+  color: #484a4d;
+  background-color: #daffff;
   display: flex;
   justify-content: center;
 }
 
+.logo {
+  
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu {
-  border: 1px solid #fff;  /* For debugging */
+  border: 1px solid #ff0000;  /* For debugging */
   width: 900px;
 }
 
