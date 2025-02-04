@@ -24,7 +24,7 @@ Secondaty color is #00f4f4: tealish
 }
 
 .logo {
-  
+  display: flex;
 }
 
 .header {
