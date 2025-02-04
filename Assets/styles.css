@@ -37,6 +37,8 @@ Secondaty color is #00f4f4: tealish
 }
 
 .menu {
+  display: flex;
+  justify-content: center;
   border: 1px solid #ff0000;  /* For debugging */
   width: 900px;
 }
