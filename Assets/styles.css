@@ -3,11 +3,11 @@ Secondaty color is #00f4f4: tealish
 */
 
 * {
-  outline: 2px solid red;
+  outline: 2px solid #00f4f4;
 }
 
 div {
-  background-color: red;
+  background-color: #203850;
   color: white;
   font-size: 32px;
   text-align: center;
