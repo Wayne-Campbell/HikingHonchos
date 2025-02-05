@@ -16,7 +16,6 @@ Tertiary color is #00f4f4: tealish
   display: flex;
   justify-content: center;
   height: 100px;
-  border: 1px solid #ff0000;
 }
 
 .menu {
@@ -34,7 +33,6 @@ Tertiary color is #00f4f4: tealish
   display: flex;
   justify-content: center;
   height: 100px;
-  border: 1px solid #ff0000;
 }
 
 
@@ -43,7 +41,6 @@ Tertiary color is #00f4f4: tealish
   display: flex;
   justify-content: space-between;
   font-size: large;
-  border: 1px solid #ff0000;
 }
 
 .links {
@@ -52,13 +49,18 @@ Tertiary color is #00f4f4: tealish
   background: 00f4f4;
   display: flex;
   justify-content: right;
-  border: 1px solid #ff0000;
+}
+
+.banner {
+  width: auto; 
+  height: 100px; 
+  display: flex;
+  justify-content: left;
 }
 
 .logo {
   width: auto; 
   height: 100px; 
   display: flex;
-  justify-content: left;
-  border: 1px solid #ff0000;
+  justify-content: center;
 }
