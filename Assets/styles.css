@@ -23,7 +23,7 @@ Tertiary color is #00f4f4: tealish
   justify-content: space-between;
   border: 1px solid #ff0000;  /* For debugging */
   width: 1000px;
-  height: min-content;
+  height: 50px;
 }
 
 .header-container {
@@ -35,8 +35,7 @@ Tertiary color is #00f4f4: tealish
 
 .header {
   display: flex;
-  justify-content: space-between;
-  font-size: large;
+  justify-content: center;
 }
 
 .links {
