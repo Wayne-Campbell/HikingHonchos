@@ -11,17 +11,18 @@ Tertiary color is #00f4f4: tealish
 
 .menu-container {
   color: #fff;
-  background-color: #203850;  /* Greyish */
+  background-color: #203850;  /* Greyish blue */
   padding: 12px 0;
   display: flex;
   justify-content: center;
+  height: 100px;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
   border: 1px solid #ff0000;  /* For debugging */
-  width: 900px;
+  width: 1000px;
   height: min-content;
 
 }
@@ -47,11 +48,13 @@ Tertiary color is #00f4f4: tealish
   height: 60px;
   background: 00f4f4;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .logo {
   width: 50px; 
   height: 50px; 
-  display: block;
+  display: flex;
+  justify-content: left;
+
 }
