@@ -21,9 +21,23 @@ Tertiary color is #00f4f4: tealish
 .menu {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #ff0000;  /* For debugging */
   width: 1000px;
   height: 50px;
+}
+
+.banner {
+  width: auto; 
+  height: 100px; 
+  display: flex;
+  justify-content: left;
+}
+
+.links {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: right;
+  font-family: Verdana;
 }
 
 .header-container {
@@ -38,24 +52,46 @@ Tertiary color is #00f4f4: tealish
   justify-content: center;
 }
 
-.links {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: right;
-  font-family: Impact;
-}
-
-.banner {
-  width: auto; 
-  height: 100px; 
-  display: flex;
-  justify-content: left;
-}
-
 .logo {
   width: auto; 
   height: 250px; 
   display: flex;
   justify-content: center;
+}
+
+.body1-container{
+  display: flex;
+  justify-content: center;
+}
+
+.body1{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.body1item{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #203850;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #1096A2;
+  flex: initial;
+  width: 300px;
 }
