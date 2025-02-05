@@ -84,14 +84,14 @@ Tertiary color is #00f4f4: tealish
 
 .footer-item {
   border: 1px solid #fff;
-  background-color: #203850;
+  background-color: #1096A2;
   height: 200px;
   flex: 1;
 }
 
 .footer-one,
 .footer-three {
-  background-color: #1096A2;
+  background-color: #203850;;
   flex: initial;
   width: 300px;
 }
