@@ -87,6 +87,7 @@ Tertiary color is #00f4f4: tealish
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center; 
 }
 
 .body2item{
@@ -102,7 +103,7 @@ Tertiary color is #00f4f4: tealish
 
 .footer-item {
   background-color: #1096A2;
-  height: 200px;
+  height: 100px;
   flex: 1;
 }
 
@@ -111,4 +112,5 @@ Tertiary color is #00f4f4: tealish
   background-color: #203850;;
   flex: initial;
   width: 300px;
+  height: 200px;
 }
