@@ -62,6 +62,7 @@ Tertiary color is #00f4f4: tealish
 .body1-container{
   display: flex;
   justify-content: center;
+  background-color: #fff;
 }
 
 .body1{
