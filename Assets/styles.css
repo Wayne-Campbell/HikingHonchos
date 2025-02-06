@@ -64,8 +64,8 @@ Button colors for contrast #A21C10: red
 .button {
 height: 25px;
 width: 75px;
-color: #ffffff;
-background-color: #A21C10;
+color: #000000;
+background-color: #00f4f4;
 font-family: Verdana;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
