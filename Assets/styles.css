@@ -75,6 +75,13 @@ Tertiary color is #00f4f4: tealish
 .body1item{
     width: 300px;
     height: 300px;
+    justify-content: right;
+    font-style: italic;
+}
+
+.quote{
+  width: 300px;
+  height: 300px;
 }
 
 .body2-container{
