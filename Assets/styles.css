@@ -73,7 +73,6 @@ Tertiary color is #00f4f4: tealish
 }
 
 .body1item{
-    border: 1px solid #000000;
     width: 300px;
     height: 300px;
 }
@@ -113,5 +112,5 @@ Tertiary color is #00f4f4: tealish
   background-color: #203850;;
   flex: initial;
   width: 300px;
-  height: 200px;
+  height: 100px;
 }
