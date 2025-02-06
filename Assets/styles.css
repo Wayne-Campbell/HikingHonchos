@@ -63,6 +63,7 @@ Button colors for contrast #A21C10: red
 .button {
 height: 50px;
 width: auto;
+color: #A21C10;
 }
 
 .body1-container{
