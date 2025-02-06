@@ -60,6 +60,11 @@ Button colors for contrast #A21C10: red
   justify-content: center;
 }
 
+.button {
+height: 50px;
+width: auto;
+}
+
 .body1-container{
   display: flex;
   justify-content: center;
@@ -67,14 +72,14 @@ Button colors for contrast #A21C10: red
 }
 
 .body1{
-  width: 900px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .body1item{
-  background-color: #333;
+  display: flex;
+  background-color: #6b936a;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   color: #fff;
@@ -82,9 +87,11 @@ Button colors for contrast #A21C10: red
   padding: 20px;
   text-align: center;
   font-style: italic;
+  width: 900px;
 }
 
 .quote{
+  display: flex;
   background-color: #6b936a;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -93,6 +100,8 @@ Button colors for contrast #A21C10: red
   padding: 20px;
   font-size: 20px;
   font-style: italic;
+  text-align: right;
+  width: 900px;
 }
 
 .body2-container{
@@ -123,6 +132,8 @@ Button colors for contrast #A21C10: red
   background-color: #1096A2;
   height: 50px;
   flex: 1;
+  color: #fff;
+  text-align: center;
 }
 
 .footer-one,
