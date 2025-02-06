@@ -34,8 +34,8 @@ Button colors for contrast #A21C10: red
 }
 
 .links {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: right;
   font-family: Verdana;
