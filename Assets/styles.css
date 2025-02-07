@@ -45,7 +45,7 @@ Button colors for contrast #A21C10: red
   color: #484a4d;
   background-color: #1096A2;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .header {
@@ -62,15 +62,15 @@ Button colors for contrast #A21C10: red
 }
 
 .button {
-height: 25px;
-width: 75px;
-color: #000000;
-background-color: #00f4f4;
-font-family: Verdana;
-border-top-left-radius: 8px;
-border-top-right-radius: 8px;
-border-bottom-left-radius: 8px;
-border-bottom-right-radius: 8px;
+ height: 25px;
+ width: 75px;
+ color: #000000;
+ background-color: #00f4f4;
+ font-family: Verdana;
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ border-bottom-left-radius: 8px;
+ border-bottom-right-radius: 8px;
 }
 
 .body1-container{
@@ -88,12 +88,10 @@ border-bottom-right-radius: 8px;
 .body1item{
   display: flex;
   background-color: #6b936a;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
   padding: 20px;
-  text-align: right;
+  text-align: end;
   font-style: italic;
   width: 900px;
 }
@@ -101,12 +99,10 @@ border-bottom-right-radius: 8px;
 .quote{
   display: flex;
   background-color: #6b936a;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
   color: #fff;
   margin: 0;
   padding: 20px;
-  font-size: 20px;
+  font-size: 40px;
   font-style: italic;
   text-align: center;
   width: 900px;
@@ -126,14 +122,15 @@ border-bottom-right-radius: 8px;
 }
 
 .body2item{
-    border: 1px solid #000000;
-    width: 300px;
-    height: 300px;
+  border: 1px solid #000000;
+  width: 300px;
+  height: 300px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-item {
