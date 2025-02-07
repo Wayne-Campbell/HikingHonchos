@@ -31,6 +31,7 @@ Button colors for contrast #A21C10: red
   height: 100px; 
   display: flex;
   justify-content: left;
+  margin-left: auto;
 }
 
 .links {
@@ -77,6 +78,7 @@ Button colors for contrast #A21C10: red
   display: flex;
   justify-content: center;
   background-color: #fff;
+  flex-direction: column;
 }
 
 .body1{
@@ -86,18 +88,17 @@ Button colors for contrast #A21C10: red
 }
 
 .body1item{
-  display: flex;
+  display: inline-flex;
   background-color: #6b936a;
   color: #fff;
   font-size: 40px;
   padding: 20px;
   text-align: end;
   font-style: italic;
-  width: 900px;
 }
 
 .quote{
-  display: flex;
+  display: inline-flex;
   background-color: #6b936a;
   color: #fff;
   margin: 0;
@@ -131,6 +132,7 @@ Button colors for contrast #A21C10: red
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
 }
 
 .footer-item {
