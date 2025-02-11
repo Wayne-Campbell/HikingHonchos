@@ -50,8 +50,9 @@ Button colors for contrast #A21C10: red
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 900px;
 }
 
 .logo {
@@ -93,8 +94,9 @@ Button colors for contrast #A21C10: red
   color: #fff;
   font-size: 40px;
   padding: 20px;
-  text-align: right;
+  justify-content: right;
   font-weight: bold;
+
 }
 
 .quote{
