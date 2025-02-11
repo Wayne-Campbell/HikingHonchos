@@ -11,7 +11,7 @@ Button colors for contrast #A21C10: red
 }
 
 .menu-container {
-  color: #203850;
+  color: #ffffff;
   background-color: #203850;  /* Greyish blue */
   padding: 12px 0;
   display: flex;
@@ -31,7 +31,6 @@ Button colors for contrast #A21C10: red
   height: 100px; 
   display: flex;
   justify-content: left;
-  margin-left: auto;
 }
 
 .links {
@@ -106,7 +105,7 @@ Button colors for contrast #A21C10: red
   padding: 20px;
   font-size: 40px;
   font-style: italic;
-  text-align: center;
+  text-align: right;
   width: 900px;
 }
 
@@ -131,6 +130,7 @@ Button colors for contrast #A21C10: red
 
 .footer {
   display: flex;
+  background-color: #203850;
   justify-content: space-between;
   align-items: flex-end;
   height: 50px;
